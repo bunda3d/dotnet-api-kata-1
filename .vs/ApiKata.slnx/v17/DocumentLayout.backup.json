@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Drive\\WEBSITE_PROJECTS\\_REPOS\\_ASP.NET\\ApiKata1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7239A8F8-4D03-C570-E6CB-0FE969C88374}|tests\\Kata.Api.Tests\\Kata.Api.Tests.csproj|d:\\drive\\website_projects\\_repos\\_asp.net\\apikata1\\tests\\kata.api.tests\\todoapitests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7239A8F8-4D03-C570-E6CB-0FE969C88374}|tests\\Kata.Api.Tests\\Kata.Api.Tests.csproj|solutionrelative:tests\\kata.api.tests\\todoapitests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7239A8F8-4D03-C570-E6CB-0FE969C88374}|tests\\Kata.Api.Tests\\Kata.Api.Tests.csproj|d:\\drive\\website_projects\\_repos\\_asp.net\\apikata1\\tests\\kata.api.tests\\kata.api.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7239A8F8-4D03-C570-E6CB-0FE969C88374}|tests\\Kata.Api.Tests\\Kata.Api.Tests.csproj|solutionrelative:tests\\kata.api.tests\\kata.api.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FB9C42-A08A-CC91-E9E7-68896A21C956}|src\\Kata.Api\\Kata.Api.csproj|d:\\drive\\website_projects\\_repos\\_asp.net\\apikata1\\src\\kata.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FB9C42-A08A-CC91-E9E7-68896A21C956}|src\\Kata.Api\\Kata.Api.csproj|solutionrelative:src\\kata.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FB9C42-A08A-CC91-E9E7-68896A21C956}|src\\Kata.Api\\Kata.Api.csproj|d:\\drive\\website_projects\\_repos\\_asp.net\\apikata1\\src\\kata.api\\kata.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A7FB9C42-A08A-CC91-E9E7-68896A21C956}|src\\Kata.Api\\Kata.Api.csproj|solutionrelative:src\\kata.api\\kata.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TodoApiTests.cs",
+              "DocumentMoniker": "D:\\Drive\\WEBSITE_PROJECTS\\_REPOS\\_ASP.NET\\ApiKata1\\tests\\Kata.Api.Tests\\TodoApiTests.cs",
+              "RelativeDocumentMoniker": "tests\\Kata.Api.Tests\\TodoApiTests.cs",
+              "ToolTip": "D:\\Drive\\WEBSITE_PROJECTS\\_REPOS\\_ASP.NET\\ApiKata1\\tests\\Kata.Api.Tests\\TodoApiTests.cs",
+              "RelativeToolTip": "tests\\Kata.Api.Tests\\TodoApiTests.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T20:35:04.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Kata.Api.Tests",
+              "DocumentMoniker": "D:\\Drive\\WEBSITE_PROJECTS\\_REPOS\\_ASP.NET\\ApiKata1\\tests\\Kata.Api.Tests\\Kata.Api.Tests.csproj",
+              "RelativeDocumentMoniker": "tests\\Kata.Api.Tests\\Kata.Api.Tests.csproj",
+              "ToolTip": "D:\\Drive\\WEBSITE_PROJECTS\\_REPOS\\_ASP.NET\\ApiKata1\\tests\\Kata.Api.Tests\\Kata.Api.Tests.csproj",
+              "RelativeToolTip": "tests\\Kata.Api.Tests\\Kata.Api.Tests.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-16T20:31:58.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Drive\\WEBSITE_PROJECTS\\_REPOS\\_ASP.NET\\ApiKata1\\src\\Kata.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Kata.Api\\Program.cs",
+              "ToolTip": "D:\\Drive\\WEBSITE_PROJECTS\\_REPOS\\_ASP.NET\\ApiKata1\\src\\Kata.Api\\Program.cs",
+              "RelativeToolTip": "src\\Kata.Api\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T20:28:25.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Kata.Api",
+              "DocumentMoniker": "D:\\Drive\\WEBSITE_PROJECTS\\_REPOS\\_ASP.NET\\ApiKata1\\src\\Kata.Api\\Kata.Api.csproj",
+              "RelativeDocumentMoniker": "src\\Kata.Api\\Kata.Api.csproj",
+              "ToolTip": "D:\\Drive\\WEBSITE_PROJECTS\\_REPOS\\_ASP.NET\\ApiKata1\\src\\Kata.Api\\Kata.Api.csproj",
+              "RelativeToolTip": "src\\Kata.Api\\Kata.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-16T20:27:55.519Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
