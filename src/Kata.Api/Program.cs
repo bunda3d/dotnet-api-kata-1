@@ -27,12 +27,6 @@ public record TodoUpdateRequest(string Title, bool Completed);
 public interface ITodoStore
 {
 	TodoItem? Get(int id);
-
-	TodoItem Add(string title);
-
-	bool Delete(int id);
-
-	bool Update(int id, string title, bool completed);
 }
 
 public sealed class InMemoryTodoStore : ITodoStore
@@ -47,21 +41,4 @@ public sealed class InMemoryTodoStore : ITodoStore
 	}
 
 	public TodoItem? Get(int id) => _items.TryGetValue(id, out var item) ? item : null;
-
-	public TodoItem Add(string title)
-	{
-		var id = Interlocked.Increment(ref _nextId);
-		var item = new TodoItem(id, title, false);
-		_items[id] = item;
-		return item;
-	}
-
-	public bool Delete(int id) => _items.TryRemove(id, out _);
-
-	public bool Update(int id, string title, bool completed)
-	{
-		if (!_items.ContainsKey(id)) return false;
-		_items[id] = new TodoItem(id, title, completed);
-		return true;
-	}
 }

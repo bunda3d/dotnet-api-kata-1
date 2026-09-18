@@ -1,8 +1,4 @@
 <Solution>
-  <Folder Name="/src/">
-    <Project Path="src/Kata.Api/Kata.Api.csproj" />
-  </Folder>
-  <Folder Name="/tests/">
-    <Project Path="tests/Kata.Api.Tests/Kata.Api.Tests.csproj" />
-  </Folder>
+  <Project Path="src/Kata.Api/Kata.Api.csproj" />
+  <Project Path="tests/Kata.Api.Tests/Kata.Api.Tests.csproj" />
 </Solution>
