@@ -14,10 +14,13 @@ public class TodoApiTests
 	[Fact]
 	public async Task Get_existing_todo_returns_200()
 	{
+		// Given
 		using var client = CreateClient();
 
+		// When
 		var response = await client.GetAsync("/todos/1");
 
+		// Then
 		Assert.Equal(HttpStatusCode.OK, response.StatusCode);
 	}
 }
