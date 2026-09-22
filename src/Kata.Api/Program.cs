@@ -9,12 +9,43 @@ var app = builder.Build();
 // Step 1 (intentionally broken): this should return an item when found, but always returns 404.
 app.MapGet("/todos/{id:int}", (int id, ITodoStore store) =>
 {
-	return Results.NotFound();
+	TodoItem? item = store.Get(id);
+	return item is not null ? Results.Ok(item) : Results.NotFound();
 });
 
 // Step 2: Implement POST /todos
+app.MapPost("/todos", (TodoCreateRequest request, ITodoStore store) =>
+{
+	if (string.IsNullOrWhiteSpace(request.Title)) 
+	{
+		return Results.BadRequest(new { Error = "Title cannot be empty." });
+	}
+	var item = store.Add(request.Title);
+	return Results.Created($"/todos/{item.Id}", item);
+});
+
 // Step 3: Implement DELETE /todos/{id:int}
+app.MapDelete("/todos/{id:int}", (int id, ITodoStore store) =>
+{
+	return store.Delete(id) ? Results.NoContent() : Results.NotFound();
+});
+
 // Step 4: Implement PUT /todos/{id:int}
+app.MapPut("/todos/{id:int}", (int id, TodoUpdateRequest request, ITodoStore store) =>
+{
+	if (string.IsNullOrWhiteSpace(request.Title))
+	{
+		return Results.ValidationProblem(new Dictionary<string, string[]>
+		{
+			[nameof(request.Title)] = ["Title is required."]
+		});
+	}
+
+	return store.Update(id, request.Title.Trim(), request.Completed) 
+		? Results.NoContent() 
+		: Results.NotFound();
+});
+
 
 app.Run();
 
@@ -38,7 +69,7 @@ public interface ITodoStore
 public sealed class InMemoryTodoStore : ITodoStore
 {
 	private readonly ConcurrentDictionary<int, TodoItem> _items = new();
-	private int _nextId = 3;
+	private int _nextId = 2;
 
 	public InMemoryTodoStore()
 	{
